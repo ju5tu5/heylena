@@ -94,6 +94,7 @@ nav::before {
   height: 2rem;
   margin: 1rem;
   transition: .4s;
+  transform-origin: center;
 }
 nav.active {
   top: 0;
