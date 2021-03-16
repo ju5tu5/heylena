@@ -85,7 +85,7 @@ nav {
   transition: .4s;
 }
 nav::before {
-  content: '🍔';
+  content: '☰';
   display: block;
   position: absolute;
   top: 0; left: 100vw;
@@ -101,7 +101,7 @@ nav.active {
 }
 nav.active:before {
   left: 0;
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
 
 nav li+li {
