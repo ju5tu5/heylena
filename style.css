@@ -18,7 +18,6 @@ body {
   background: linear-gradient(185deg, var(--bgtop) 50vw, var(--bgbottom) 50vw);
   background-repeat: no-repeat;
   font-family: 'Gentium Basic', serif;
-
 }
 
 /* Global Layout */
@@ -152,6 +151,9 @@ main article:first-of-type {
   columns: 3;
 }
 
+footer {
+  width: 100vw;
+}
 
 @media screen and (min-width: 40rem) {
   
